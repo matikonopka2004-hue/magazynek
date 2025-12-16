@@ -6,6 +6,9 @@ if 'inventory' not in st.session_state:
 
 st.title('Prosta Aplikacja Magazynowa')
 
+# Dodanie obrazka Spidermana
+st.image('https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Spider-Man_in_Spider-Man_2_%282004_film%29.jpg/220px-Spider-Man_in_Spider-Man_2_%282004_film%29.jpg', caption='Spider-Man', width=200)
+
 st.write('---')
 st.header('Dodaj Produkt')
 product_to_add = st.text_input('Nazwa produktu do dodania:', key='add_input')
