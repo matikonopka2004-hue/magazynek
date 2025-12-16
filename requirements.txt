@@ -1,0 +1,5 @@
+# requirements.txt
+# Utwórz plik 'requirements.txt' z poniższą zawartością:
+with open('requirements.txt', 'w') as f:
+    f.write('streamlit')
+print("Plik 'requirements.txt' został wygenerowany.")
